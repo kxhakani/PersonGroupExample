@@ -25,7 +25,7 @@ namespace PersonGroupExample
     public partial class Login : Window
     {
         private readonly IFaceServiceClient faceServiceClient =
-            new FaceServiceClient("00d7358854144900955ef88f7f0b190b", "https://westus.api.cognitive.microsoft.com/face/v1.0");
+            new FaceServiceClient("key here", "https://westus.api.cognitive.microsoft.com/face/v1.0");
 
         public Login()
         {
